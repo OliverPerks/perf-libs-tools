@@ -1,7 +1,3 @@
-armpl_singlecomplex_t cdotc_(armpl_singlecomplex_t *ret_val, armpl_int_t *n, armpl_singlecomplex_t *x, armpl_int_t *incx, armpl_singlecomplex_t *y, armpl_int_t *incy)
-armpl_singlecomplex_t cdotu_(armpl_singlecomplex_t *ret_val, armpl_int_t *n, armpl_singlecomplex_t *x, armpl_int_t *incx, armpl_singlecomplex_t *y, armpl_int_t *incy)
-armpl_doublecomplex_t zdotc_(armpl_doublecomplex_t *ret_val, armpl_int_t *n, armpl_doublecomplex_t *x, armpl_int_t *incx, armpl_doublecomplex_t *y, armpl_int_t *incy)
-armpl_doublecomplex_t zdotu_(armpl_doublecomplex_t *ret_val, armpl_int_t *n, armpl_doublecomplex_t *x, armpl_int_t *incx, armpl_doublecomplex_t *y, armpl_int_t *incy)
 void caxpby_(armpl_int_t *n, armpl_singlecomplex_t *alpha, armpl_singlecomplex_t *x, armpl_int_t *incx, armpl_singlecomplex_t *beta, armpl_singlecomplex_t *y, armpl_int_t *incy)
 void caxpy_(armpl_int_t *n, armpl_singlecomplex_t *alpha, armpl_singlecomplex_t *x, armpl_int_t *incx, armpl_singlecomplex_t *y, armpl_int_t *incy)
 void ccopy_(armpl_int_t *n, armpl_singlecomplex_t *x, armpl_int_t *incx, armpl_singlecomplex_t *y, armpl_int_t *incy)

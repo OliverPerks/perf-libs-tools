@@ -1,8 +1,7 @@
 CFLAGS=-O3 -Wno-pointer-to-int-cast
 OMPFLAG=-fopenmp
 
-#CC=gcc
-CC=armclang
+CC=gcc
 
 all: Makefile libarmpl-logger.so libarmpl-summarylog.so libarmpl_mp-summarylog.so src/PROTOTYPES tools
 
